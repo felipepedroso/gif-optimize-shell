@@ -75,7 +75,7 @@ if hash ffmpeg 2>/dev/null; then
         done
     else
         if [ -f "${INPUT_PATH}" ]; then
-            optimize_gif $FILE_PATH $USER_FPS $USER_SCALE
+            optimize_gif $INPUT_PATH $USER_FPS $USER_SCALE
         else
             echo "Invalid file/directory path. Please consider providing a valid one.";
             exit 1
