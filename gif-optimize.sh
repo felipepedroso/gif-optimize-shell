@@ -62,7 +62,7 @@ case $i in
         if [ -f "$i" ] || [ -d "$i" ] ; then
             INPUT_PATH="$i"
         else 
-            echo "Is directory"
+            echo "Invalid command: '$i'"
         fi
     ;;
 esac
