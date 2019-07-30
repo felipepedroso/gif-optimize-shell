@@ -40,6 +40,8 @@ optimize_gif() {
     fi
 }
 
+# The arguments handling was inspired on the code available on
+# https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
 for i in "$@"
 do
 case $i in
