@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DEFAULT_FPS=10
-DEFAULT_SCALE=240
+DEFAULT_SCALE=320
 
 optimize_gif() {
     FILE_PATH="$1"
